@@ -1,0 +1,84 @@
+* {
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: "Gill Sans", sans-serif;
+}
+
+/* Body styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+/* Container styles */
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'Courier New', monospace;
+
+}
+
+/* Form styles */
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ccc;
+
+	border: 5px solid #ccc;
+	padding: 20px;
+	border-radius: 20px;
+	border-width: 50px;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+}
+
+button {
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #181818;
+	color: #fff;
+	cursor: pointer;
+	width: 400px;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+.error-message {
+	color: red;
+	margin-bottom: 10px;
+}
+
+.success-message {
+	color: green;
+	margin-bottom: 10px;
+}
